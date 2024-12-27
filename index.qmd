@@ -1,0 +1,44 @@
+---
+title: "Tour of British Coast"
+author: "Simon Bond"
+format: html
+editor: visual
+---
+
+# Introduction
+
+I went on a bike ride with a friend in October 2016 starting from King's Lynne and then following the Norfolk coast. This became a mission to cycle all of the British coast, with a sequence of short holidays over many years. 
+
+I've created a map of my progress so far along with a list of links to individual Strava rides.
+
+
+
+```{r map}
+#| echo: false
+library(leaflet)
+library(magrittr)
+load("strava_data.Rds")
+
+m <- leaflet() %>% 
+  addTiles()
+for( df in coords_list){
+  m <- addPolylines(m, data=df[[1]], lat=~lat,lng=~lon)
+  
+}
+m
+```
+
+# Rides
+
+```{r rides}
+#| echo: false
+library(kableExtra)
+rides_df <- read.csv(file="activities.csv") %>% 
+  na.omit()
+
+rides_df |> 
+  kableExtra::kbl(col.names = c("Title","Link")) |>
+  kableExtra::kable_styling() |>
+  kableExtra::column_spec(2, link=rides_df$id)
+
+```
