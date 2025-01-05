@@ -17,7 +17,7 @@ website:
     right:
       - icon: rss
         href: blog.xml
-      
+  margin-header: subscribe.html  
 format:
   html:
     theme: cosmo
