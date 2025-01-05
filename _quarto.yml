@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - "verification-follow_it-ulPT3JDlE14h1rCzE2p6.html"
+    - "follow.it-verfication-code.html"
 website:
   title: "British Coast"
   site-url: https://shug0131.github.io/coastline/
