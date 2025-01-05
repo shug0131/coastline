@@ -1,0 +1,13 @@
+---
+title: "Test Post"
+description: "Testing the RSS-email feed"
+author: "Simon Bond"
+date: "05JAN2025"
+draft: false
+---
+
+
+This is to see if follow.it rss-email feed is actually working.
+
+
+

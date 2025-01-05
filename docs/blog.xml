@@ -12,6 +12,23 @@
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Sun, 05 Jan 2025 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>Test Post</title>
+  <dc:creator>Simon Bond</dc:creator>
+  <link>https://shug0131.github.io/coastline/posts/test_post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is to see if follow.it rss-email feed is actually working.</p>
+
+
+
+ ]]></description>
+  <guid>https://shug0131.github.io/coastline/posts/test_post.html</guid>
+  <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>First Post</title>
   <dc:creator>Simon Bond</dc:creator>
   <link>https://shug0131.github.io/coastline/posts/first_post.html</link>

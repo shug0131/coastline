@@ -18,6 +18,13 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "First Post\n\n\n\n\n\nAims\n\n\n\n\n\nJan 5, 2025\n\n\nSimon Bond\n\n\n\n\n\n\nNo matching items"
+    "text": "Test Post\n\n\n\n\n\nTesting the RSS-email feed\n\n\n\n\n\nJan 5, 2025\n\n\nSimon Bond\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Post\n\n\n\n\n\nAims\n\n\n\n\n\nJan 5, 2025\n\n\nSimon Bond\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/test_post.html",
+    "href": "posts/test_post.html",
+    "title": "Test Post",
+    "section": "",
+    "text": "This is to see if follow.it rss-email feed is actually working."
   }
 ]
