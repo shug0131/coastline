@@ -4,12 +4,20 @@ project:
 
 website:
   title: "British Coast"
-navbar:
-  left:
-  - href: index.qmd
-text: Home
-  - about.qmd
-
+  site-url: https://shug0131.github.io/coastline/
+  description: "Cycle Tour of the British Coast"
+  navbar:
+    primary: true
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: rss
+        href: blog.xml
+      
 format:
   html:
     theme: cosmo

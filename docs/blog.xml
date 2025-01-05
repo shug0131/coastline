@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>British Coast</title>
+<link>https://shug0131.github.io/coastline/blog.html</link>
+<atom:link href="https://shug0131.github.io/coastline/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Cycle Tour of the British Coast</description>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Sun, 05 Jan 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>First Post</title>
+  <dc:creator>Simon Bond</dc:creator>
+  <link>https://shug0131.github.io/coastline/posts/first_post.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I plan to write longer description of individual rides in this blog. Covering the logistics, accomodation, cafes and cakes.</p>
+
+
+
+ ]]></description>
+  <guid>https://shug0131.github.io/coastline/posts/first_post.html</guid>
+  <pubDate>Sun, 05 Jan 2025 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

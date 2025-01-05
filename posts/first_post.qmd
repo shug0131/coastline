@@ -1,0 +1,12 @@
+---
+title: "First Post"
+description: "Aims"
+author: "Simon Bond"
+date: "05JAN2025"
+draft: false
+---
+
+
+I plan to write longer description of individual rides in this blog. Covering the logistics, accomodation, cafes and cakes. 
+
+
