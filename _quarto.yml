@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - "verification-follow_it-ulPT3JDlE14h1rCzE2p6.html"
 website:
   title: "British Coast"
   site-url: https://shug0131.github.io/coastline/
@@ -18,6 +19,7 @@ website:
       - icon: rss
         href: blog.xml
   margin-header: subscribe.html  
+  
 format:
   html:
     theme: cosmo
