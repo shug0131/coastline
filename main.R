@@ -28,12 +28,14 @@ rides_df <- read.csv(file="activities.csv") %>%
 ids <- gsub(".*/(\\d+$)","\\1", rides_df$id)
 ids <- ids[ids!=""]
 
-#rides_df[c(43,42,49,50,41),]
-#extra <-  get_activity_list(stoken, id = ids[51])
-#my_acts <-c(my_acts, extra) 
+#rides_df[52:57,]
+extra <-  get_activity_list(stoken, id = ids[52:57])
+load("strava_data.Rds")
+
+my_acts <-c(my_acts, extra) 
 # There may be a limit to the number of requests,  but can break it up into shorter ones.
 
-my_acts <- get_activity_list(stoken, id = ids)
+#my_acts <- get_activity_list(stoken, id = ids)
 
 
 #act_data <- compile_activities(my_acts) 
