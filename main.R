@@ -1,7 +1,8 @@
 
-#sudo apt-get install libudunits2-dev
-#sudo apt-get install -y  libudunits2-dev libgdal-dev libgeos-dev libproj-dev
-#sudo apt-get install -y libjq-dev
+# sudo apt-get install libudunits2-dev
+# sudo apt-get install -y  libudunits2-dev libgdal-dev libgeos-dev libproj-dev
+# sudo apt-get install -y libjq-dev
+# sudo apt install default-jdk gdal-bin
 #renv::install("rStrava")
 # renv::install("leaflet)
 #renv::install("googlePolylines")
