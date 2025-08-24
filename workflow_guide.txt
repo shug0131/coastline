@@ -1,0 +1,7 @@
+1) The api link to strava only works in the local version of Rstudio, and not in the docker one
+2) Update activities.csv  to add in new ride numbers from strava
+3) run main.R with suitable edits to line 38, which details which rows are new. Don't try to re-download all rides, as takes too long, and strava probably says no
+3.5)  You could edit teh blog or put some new entries in there.
+4) Now in the terminal window  > quarto render
+5) commit and push to github
+6) Website will update in a few minutes  https://shug0131.github.io/coastline/
