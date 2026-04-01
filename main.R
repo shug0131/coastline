@@ -24,7 +24,7 @@ library(magrittr)
 #https://jessicasalbert.medium.com/holding-your-hand-through-stravas-api-e642d15695f2
 
 tokenurl <- strava_oauth(app_name, app_client_id, app_secret, app_scope="activity:read_all")
-tokenurl <- "ba78c40a92a993e96dbaf976a775ad3e91bae763"
+#tokenurl <- "ba78c40a92a993e96dbaf976a775ad3e91bae763"
 stoken <- httr::config(token = tokenurl)
 
 get_athlete(stoken, id="3766259")
@@ -35,7 +35,7 @@ ids <- gsub(".*/(\\d+$)","\\1", rides_df$id)
 ids <- ids[ids!=""]
 
 #rides_df[52:57,]
-extra <-  get_activity_list(stoken, id = ids[1:3])
+extra <-  get_activity_list(stoken, id = ids[1])
 load("strava_data.Rds")
 
 my_acts <-c(my_acts, extra) 
